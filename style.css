@@ -1,6 +1,22 @@
-* {
+body {
     background-color: #151514;
     color: #d4d4d3;
+}
+
+.main {
+    background-color: rgb(74, 74, 74);
+    margin: 15px;
+    border: 2px solid aqua;
+}
+
+h2 {
+    display: inline-block;
+    margin: 10px;
+}
+
+p{
+    display: inline-block;
+    margin: 10px;
 }
 
 #Page-Title {
@@ -8,9 +24,26 @@
     font-size: 48px;
 }
 
+#img {
+    margin: 15px;
+    border: 1px solid aqua;
+}
+
 #Rec-List {
     font-size: 32px;
     text-align: center;
-    text-decoration: none;
     list-style: none;
+}
+
+.links {
+    text-decoration: none;
+    color: aqua;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.links:visited {
+    text-decoration: none;
 }
