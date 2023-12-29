@@ -11,13 +11,13 @@ body {
 
 h2 {
     display: inline-block;
-    margin: 15px;
+    margin: 12px;
     font-size: 36px;
 }
 
 li {
-    font-size: 28px;
-    margin: 6px;
+    font-size: 25px;
+    margin: 0px;
 }
 
 p{
